@@ -7,6 +7,7 @@ import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiTypescript } from "react-icons/si";
 import { FaPython } from "react-icons/fa";
+import Image from "next/image";
 
 
 export default function Home() {
@@ -48,11 +49,13 @@ export default function Home() {
 </header>
 
     {/*hero section*/}
-    <section className="text-gray-400 bg-gray-900 body-font">
+    <section className="text-slate-100 bg-gray-900 body-font">
   <div className="container mx-auto flex flex-col px-2 py-5 justify-center items-center">
-    <img className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="image/rija.png"/>
+  <Image src="/image/mypicture.jpg" alt="my picture" width={300} height={300}  />
+
+    {/*<img className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="image/rija.png"/>*/}
     <div className="w-full md:w-2/3 flex flex-col mb-16 items-center text-center">
-      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-yellow-500"><Typewriter
+      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-yellow-500 mt-5"><Typewriter
   options={{
     strings: ['HEY THERE!', 'I am RIJA ZEESHAN', 'I am Web Developer'],
     autoStart: true,
@@ -175,6 +178,7 @@ export default function Home() {
     <div className="flex flex-wrap -m-4">
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          {/*<Image src={"/image/calculater.png"} alt={"calculater"} height={30} width={375}/>*/}
           <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="/image/calculater.png" alt="blog"/>
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
