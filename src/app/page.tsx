@@ -27,11 +27,16 @@ export default function Home() {
       <Link className="mr-5 text-yellow-500 hover:text-sky-400"href={"/contact"}> Contact Us</Link>
       <Link className="mr-5 text-yellow-500 hover:text-sky-400"href={"/privacypolicy"}> Privacy policy </Link>
     </nav>
+
+
+
+
+
     <a className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
-    <img
-                  src="https://static.vecteezy.com/system/resources/previews/023/795/026/non_2x/register-mark-icon-isolated-on-white-background-vector.jpg"
+    <Image
+                  src="/image/e.jpg"
                   alt="r logo"
-                  className="w-10 h-10 rounded-full"
+                  className=" rounded-full" width={40} height={40}
                 />
             
               
@@ -178,8 +183,14 @@ export default function Home() {
     <div className="flex flex-wrap -m-4">
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          
-          <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="/image/calculater.png" alt="blog"/>
+        <Image 
+  className="lg:h-48 md:h-36 w-full object-cover object-center" 
+  src="/image/calculater.png" 
+  alt="blog" 
+  width={500} 
+  height={300} 
+/>
+
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
             <h1 className="title-font text-lg font-medium text-slate-100 mb-3">Project: Calculater</h1>
@@ -209,7 +220,16 @@ export default function Home() {
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="/image/student.jpg" alt="blog"/>
+        <Image 
+  className="lg:h-48 md:h-36 w-full object-cover object-center" 
+  src="/image/student.jpg" 
+  alt="blog" 
+  width={500} 
+  height={300} 
+/>
+
+
+    
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
             <h1 className="title-font text-lg font-medium text-slate-100 mb-3">Project: Student Management System</h1>
@@ -239,7 +259,13 @@ export default function Home() {
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="/image/todolist.jpg" alt="blog"/>
+        <Image 
+  className="lg:h-48 md:h-36 w-full object-cover object-center" 
+  src="/image/todolist.jpg" 
+  alt="blog" 
+  width={500} 
+  height={300} 
+/>
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
             <h1 className="title-font text-lg font-medium text-slate-100 mb-3">Project: TodoList App</h1>
@@ -351,7 +377,7 @@ export default function Home() {
       </div>
     </div>
     <Link href={"https://github.com/Rija-zeeshan"}><button className=" flex mx-auto mt-16 py-3 px-5 rounded-lg items-center hover:bg-yellow-500 focus:outline-none bg-blue-700">
-        <img src="/image/github.png" alt="github" className="w-15 h-10"/>
+        <Image src="/image/github.png" alt="github" width={30} height={25}/>
         <span className="ml-4 flex items-start flex-col leading-none">
           <span className="text-xs text-black mb-1">Git Hub</span>
           <span className="title-font text-black font-bold">@Rija Zeeshan</span>
@@ -394,7 +420,14 @@ g
     <div className="flex flex-wrap -m-4">
       <div className="p-4 lg:w-1/2">
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="/image/mehak.jpeg"/>
+        <Image 
+   
+  className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" 
+  alt="miss"
+  src="/image/mehak.jpeg" 
+  width={192} 
+  height={192} 
+/>
           <div className="flex-grow sm:pl-8">
             <h2 className="title-font font-medium text-lg text-yellow-500"><Typewriter
   options={{
@@ -428,7 +461,14 @@ g
       </div>
       <div className="p-4 lg:w-1/2">
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="/image/ali.jpeg"/>
+        <Image 
+  
+  className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+  alt="sir ali" 
+  src="/image/ali.jpeg" 
+  width={192} 
+  height={192} 
+/>
           <div className="flex-grow sm:pl-8">
             <h2 className="title-font font-medium text-lg text-yellow-500"><Typewriter
   options={{
@@ -461,7 +501,17 @@ g
       </div>
       <div className="p-4 lg:w-1/2">
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="/image/hamzah.jpeg"/>
+        <Image 
+  
+  className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" 
+  alt="sir Hamzah"
+  src="/image/hamzah.jpeg" 
+  width={192} 
+  height={192} 
+/>
+
+
+          
           <div className="flex-grow sm:pl-8">
             <h2 className="title-font font-medium text-lg text-yellow-500"><Typewriter
   options={{
@@ -495,7 +545,16 @@ g
       </div>
       <div className="p-4 lg:w-1/2">
         <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-          <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="/image/ameen.jpeg"/>
+        <Image 
+  alt="team" 
+  className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" 
+  src="/image/ameen.jpeg" 
+  width={192} 
+  height={192} 
+/>
+
+
+          
           <div className="flex-grow sm:pl-8">
             <h2 className="title-font font-medium text-lg text-yellow-500"><Typewriter
   options={{
