@@ -63,7 +63,7 @@ export default function Home() {
   }}
 />
 </h1>
-      <p className="mb-8 leading-relaxed">I have graduated in commerce and I am a student of IT...My dream is to lead a successful life and rule the IT world..With a solid foundation in web development technologies, I have acquired proficiency in HTML, CSS, JavaScript, and TypeScript. My journey through these languages has equipped me with the skills necessary to build dynamic and interactive web applications. Currently, I am expanding my expertise by learning Next.js, a powerful React framework that enhances server-side rendering and static site generation. This new focus aligns with my experience in TypeScript, as I've already completed several projects utilizing it to create robust and scalable solutions. My continuous learning and hands-on projects reflect my commitment to staying at the forefront of web development trends and technologies.
+      <p className="mb-8 leading-relaxed">I have graduated in commerce and I am a student of IT...My dream is to lead a successful life and rule the IT world..With a solid foundation in web development technologies, I have acquired proficiency in HTML, CSS, JavaScript, and TypeScript. My journey through these languages has equipped me with the skills necessary to build dynamic and interactive web applications. Currently, I am expanding my expertise by learning Next.js, a powerful React framework that enhances server-side rendering and static site generation. This new focus aligns with my experience in TypeScript, as I have already completed several projects utilizing it to create robust and scalable solutions. My continuous learning and hands-on projects reflect my commitment to staying at the forefront of web development trends and technologies.
 
 </p>
 
@@ -350,14 +350,21 @@ export default function Home() {
         </div>
       </div>
     </div>
+    <Link href={"https://github.com/Rija-zeeshan"}><button className=" flex mx-auto mt-16 py-3 px-5 rounded-lg items-center hover:bg-yellow-500 focus:outline-none bg-blue-700">
+        <img src="/image/github.png" alt="github" className="w-15 h-10"/>
+        <span className="ml-4 flex items-start flex-col leading-none">
+          <span className="text-xs text-black mb-1">Git Hub</span>
+          <span className="title-font text-black font-bold">@Rija Zeeshan</span>
+        </span>
+      </button></Link>
+
+
+
     
 
 
-    
 
 
-
-    <button className="flex mx-auto mt-16 text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-skyblue-600 rounded text-lg hover:bg-blue-700">Visit my Github</button>
   </div>
 
 
