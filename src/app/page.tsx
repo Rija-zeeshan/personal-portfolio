@@ -111,7 +111,7 @@ export default function Home() {
 <div className="container px-2 py-02 mx-auto">
     <div className="flex flex-wrap w-full mb-20">
       <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-yellow-500">Unlocking My Skill Set's<br></br> The Hidden Talents! </h1>
+        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-yellow-500">Unlocking My Skill Set&apos;s<br></br> The Hidden Talents! </h1>
         <div className="h-1 w-20 bg-indigo-500 rounded"></div>
       </div>
       <p className="lg:w-1/2 w-full leading-relaxed text-slate-100">Highlights the range of skills and expertise,emphasizing the impact and value brought to my projects.</p>

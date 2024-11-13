@@ -1,0 +1,35 @@
+[33mcommit 6a41a0f833fc786be00bbc10d0c3eb46dae392b2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Rija-zeeshan <rijazeeshan91@gmail.com>
+Date:   Thu Nov 14 02:53:12 2024 +0500
+
+    Converted <img> to Next.js <Image> component
+
+[33mcommit 45cb4b55d187d91c944875497b4b4f1d7b5f6669[m
+Author: Rija-zeeshan <rijazeeshan91@gmail.com>
+Date:   Thu Nov 14 02:23:39 2024 +0500
+
+    Convert <img> to Next.js <Image> component
+
+[33mcommit 168e6a469e05858e31adcaaae4d242da1df9396f[m
+Author: Rija-zeeshan <rijazeeshan91@gmail.com>
+Date:   Thu Nov 14 01:59:28 2024 +0500
+
+    first commit
+
+[33mcommit b2197e6390ef7d32364c135cfa23bdfcb9c364a0[m
+Author: Rija-zeeshan <rijazeeshan91@gmail.com>
+Date:   Tue Nov 12 02:02:49 2024 +0500
+
+    first commit
+
+[33mcommit c12c38eafb6f8ad66d9b636009d7a05f41c16c33[m
+Author: Rija-zeeshan <rijazeeshan91@gmail.com>
+Date:   Mon Nov 11 16:59:06 2024 +0500
+
+    first commit
+
+[33mcommit df35f16529a09069bb8d527353b58450dc22aba2[m
+Author: Rija-zeeshan <rijazeeshan91@gmail.com>
+Date:   Tue Oct 1 17:14:26 2024 +0500
+
+    Initial commit from Create Next App
